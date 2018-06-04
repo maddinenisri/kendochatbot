@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[code]
+ng new kendochatbot --style=scss
+npm install --save @progress/kendo-angular-buttons @progress/kendo-angular-l10n
+npm install --save rxjs-compat@6
+ng add @progress/kendo-angular-conversational-ui
+ng add api-ai-javascript
+npm install @types/node --save-dev
+npm install dialogflow-fulfillment
+npm install --save @progress/kendo-theme-default
+[/code]
